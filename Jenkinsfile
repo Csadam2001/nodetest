@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("/repository/docker/csizmadiaa1/demoapp")
+        app = docker.build("csizmadiaa1/demoapp")
     }
 
     stage('Test image') {
